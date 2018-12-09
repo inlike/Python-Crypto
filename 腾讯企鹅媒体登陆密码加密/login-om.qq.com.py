@@ -70,5 +70,5 @@ def login(email, pwd):
     data = loads(loginresponse.text)
 
 
-login("2551513277@qq.com", "123456lkj")
+
 
