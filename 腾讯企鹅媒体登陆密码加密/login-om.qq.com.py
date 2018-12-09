@@ -34,6 +34,7 @@ def get_token(email):
 
 
 def login(email, pwd):
+    log = requests.Session()
     login_url = 'https://om.qq.com/userAuth/SignIn?relogin=1'
     token, randomkey = get_token(email)
     headers = {
@@ -66,8 +67,10 @@ def login(email, pwd):
     jsstr = htmlstr
     ctx = execjs.compile(jsstr)   # 加载JS文件
     pwd = ctx.call("getpwd", pwd, token['token'], token['salt'])
-    loginresponse = requests.post(login_url, data={'email': email, 'pwd': pwd, 'token': token['token']}, headers=headers)
+    loginresponse = log.post(login_url, data={'email': email, 'pwd': pwd, 'token': token['token']}, headers=headers)
     data = loads(loginresponse.text)
+
+    '''test'''
 
 
 
