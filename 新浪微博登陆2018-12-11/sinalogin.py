@@ -116,4 +116,4 @@ def login(iphone, password):
 
 
 if __name__ == '__main__':
-    login('1832*****03', '666666')
+    login('1832----803', '666666')
