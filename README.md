@@ -24,6 +24,18 @@
    测试是无登陆状态下的请求加密，无登陆状态下csrf_token参数为空，在同一ip过度请求下降不会返回数据；在登陆状态下请求的url和未登录状态下的url是不一样的
    ### 加密方式AES（对称加密）
       评论请求加密参数是两个：params、encSecKey，传入加密函数的参数是a,b,c,d+内部随机生成的16位参数i
-      其中a是'"{"rid":"R_SO_4_371362","offset":"160","total":"false","limit":"20","csrf_token":"de097d5986487c4aefe9f52c65e43224"}"}'形式参数rid：歌曲id；offset：歌词页数计算公式(n-1)*20；total：在第一页是TRUE在其他是false；csrf_token：在登陆成功后再返回的cookie中可以找到，未登录时是空。
+      其中a='"{"rid":"R_SO_4_371362","offset":"160","total":"false","limit":"20","csrf_token":"de097d5986487c4aefe9f52c65e43224"}"}'形式参数
+      rid：歌曲id；
+      offset：歌词页数计算公式(n-1)*20；
+      total：在第一页是TRUE在其他是false；
+      csrf_token：在登陆成功后再返回的cookie中可以找到，未登录时是空。
+      b、c、d是固定的参数，由js内部定义的文字编码转码并并且得到的类似于
+      {"色":"00e0b","流感":"509f6","这边":"259df","弱":"8642d","嘴    唇":"bc356","亲":"62901","开心":"477df"}-->色+嘴唇="00e0bbc356"
+      bcd当做固定参数传入
+      其中内部随便变量i可以写死，那么encSecKey参数都是由固定参数生成的，可以当做固定参数使用
+      params根据页数和歌曲参数的不同是变化的
+      params:RSA密钥加密
+      encSecKey：是内部方法CryptoJS.AES.encrypt两次编码得到
+      
     
 
