@@ -14,7 +14,6 @@
     servertime：上面get请求返回的
     nonce：上面get请求返回的
     pw：输入的密码
---
 ## 腾讯企鹅媒体
   测试的是邮箱登陆，无验证码问题，因为账号问题可能在登陆后被重定向到身份验证页面
   注意在post请求时需要带上cookie，并且cookie中有个参数是登录前Ajax get请求的含有token信息的返回cookie
