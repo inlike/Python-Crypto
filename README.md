@@ -22,7 +22,7 @@
     加密形式：MD5(token + MD5(salt + pwd))双重加密
 ## 网易云获取评论请求参数加密
    测试是无登陆状态下的请求加密，无登陆状态下csrf_token参数为空，在同一ip过度请求下降不会返回数据；在登陆状态下请求的url和未登录状态下的url是不一样的
-   ### 加密方式AES（对称加密）
+   ### 加密方式AES+RSA
       评论请求加密参数是两个：params、encSecKey，传入加密函数的参数是a,b,c,d+内部随机生成的16位参数i
       其中a='"{"rid":"R_SO_4_371362","offset":"160","total":"false","limit":"20","csrf_token":"de097d5986487c4aefe9f52c65e43224"}"}'形式参数
       rid：歌曲id；
@@ -34,8 +34,8 @@
       bcd当做固定参数传入
       其中内部随便变量i可以写死，那么encSecKey参数都是由固定参数生成的，可以当做固定参数使用
       params根据页数和歌曲参数的不同是变化的
-      params:RSA密钥加密
-      encSecKey：是内部方法CryptoJS.AES.encrypt两次编码得到
+      params:是内部方法AES CBC模式
+      encSecKey：RSA加密
       
     
 
