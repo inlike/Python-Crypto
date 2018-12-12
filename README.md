@@ -20,5 +20,10 @@
   ### 加密方式：MD5双重加密（信息摘要算法或签名算法）
     登录前后台会get请求一次，返回含有token和salf等加密参数信息以及一个cookie，该cookie要加在post的请求中
     加密形式：MD5(token + MD5(salt + pwd))双重加密
+## 网易云获取评论请求参数加密
+   测试是无登陆状态下的请求加密，无登陆状态下csrf_token参数为空，在同一ip过度请求下降不会返回数据；在登陆状态下请求的url和未登录状态下的url是不一样的
+   ### 加密方式AES（对称加密）
+      评论请求加密参数是两个：params、encSecKey，传入加密函数的参数是a,b,c,d+内部随机生成的16位参数i
+      其中a是'"{"rid":"R_SO_4_371362","offset":"160","total":"false","limit":"20","csrf_token":"de097d5986487c4aefe9f52c65e43224"}"}'形式参数rid：歌曲id；offset：歌词页数计算公式(n-1)*20；total：在第一页是TRUE在其他是false；csrf_token：在登陆成功后再返回的cookie中可以找到，未登录时是空。
     
 
