@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aee9441d-66e9-45ff-b90d-849fa3abd4b7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/微信公众号登陆加密/js.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/微信公众号登陆加密/login.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python-Crypto.iml" afterPath="$PROJECT_DIR$/.idea/Python-Crypto.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/京东登陆/js.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/京东登陆/login.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +23,7 @@
       <file leaf-file-name="js.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/新浪微博登陆2018-12-11/js.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
+            <state relative-caret-position="373">
               <caret line="2463" column="0" lean-forward="false" selection-start-line="2463" selection-start-column="0" selection-end-line="2463" selection-end-column="0" />
               <folding />
             </state>
@@ -35,8 +33,8 @@
       <file leaf-file-name="sinalogin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/新浪微博登陆2018-12-11/sinalogin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="101" column="26" lean-forward="false" selection-start-line="101" selection-start-column="19" selection-end-line="101" selection-end-column="26" />
+            <state relative-caret-position="153">
+              <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="3" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
@@ -54,24 +52,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/微信公众号登陆加密/login.py">
+      <file leaf-file-name="js.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/京东登陆/js.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="e#24#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="328">
+              <caret line="3748" column="2" lean-forward="false" selection-start-line="3748" selection-start-column="2" selection-end-line="3748" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/微信公众号登陆加密/js.txt">
+      <file leaf-file-name="login.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/京东登陆/login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="475">
+              <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,6 +95,8 @@
         <option value="$PROJECT_DIR$/新浪微博登陆2018-12-11/sinalogin.py" />
         <option value="$PROJECT_DIR$/微信公众号登陆加密/js.txt" />
         <option value="$PROJECT_DIR$/微信公众号登陆加密/login.py" />
+        <option value="$PROJECT_DIR$/京东登陆/js.txt" />
+        <option value="$PROJECT_DIR$/京东登陆/login.py" />
       </list>
     </option>
   </component>
@@ -106,11 +106,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="300" />
+    <option name="y" value="19" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -130,7 +130,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -142,12 +141,18 @@
             <path>
               <item name="Python-Crypto" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-Crypto" type="462c0819:PsiDirectoryNode" />
+              <item name="京东登陆" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python-Crypto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python-Crypto" type="462c0819:PsiDirectoryNode" />
               <item name="微信公众号登陆加密" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,21 +173,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.login">
-    <configuration name="login-om.qq.com" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.login (1)">
+    <configuration name="login (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/腾讯企鹅媒体登陆密码加密" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/京东登陆" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python-Crypto" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/腾讯企鹅媒体登陆密码加密/login-om.qq.com.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/京东登陆/login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -264,19 +268,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.login-om.qq.com" />
-      <item index="1" class="java.lang.String" itemvalue="Python.sinalogin" />
-      <item index="2" class="java.lang.String" itemvalue="Python.sina_login_phone" />
-      <item index="3" class="java.lang.String" itemvalue="Python.sina_login_pyexecjs" />
-      <item index="4" class="java.lang.String" itemvalue="Python.login" />
+      <item index="0" class="java.lang.String" itemvalue="Python.sinalogin" />
+      <item index="1" class="java.lang.String" itemvalue="Python.sina_login_phone" />
+      <item index="2" class="java.lang.String" itemvalue="Python.sina_login_pyexecjs" />
+      <item index="3" class="java.lang.String" itemvalue="Python.login" />
+      <item index="4" class="java.lang.String" itemvalue="Python.login (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.login" />
-        <item index="1" class="java.lang.String" itemvalue="Python.sinalogin" />
-        <item index="2" class="java.lang.String" itemvalue="Python.sina_login_pyexecjs" />
-        <item index="3" class="java.lang.String" itemvalue="Python.sina_login_phone" />
-        <item index="4" class="java.lang.String" itemvalue="Python.login-om.qq.com" />
+        <item index="0" class="java.lang.String" itemvalue="Python.login (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.login" />
+        <item index="2" class="java.lang.String" itemvalue="Python.sinalogin" />
+        <item index="3" class="java.lang.String" itemvalue="Python.sina_login_pyexecjs" />
+        <item index="4" class="java.lang.String" itemvalue="Python.sina_login_phone" />
       </list>
     </recent_temporary>
   </component>
@@ -294,6 +298,14 @@
       <option name="presentableId" value="Default" />
       <updated>1544357723401</updated>
     </task>
+    <task id="LOCAL-00001" summary="2018-12-18">
+      <created>1545140880547</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545140880547</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -306,19 +318,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="300" y="19" width="1936" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15542677" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37459284" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -338,6 +350,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2018-12-18" />
+    <option name="LAST_COMMIT_MESSAGE" value="2018-12-18" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -402,6 +418,11 @@
           <line>36</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/京东登陆/login.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -410,11 +431,55 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="28" />
+      <option name="time" value="29" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/新浪微博登陆2018-12-11/js.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41871">
+          <caret line="2463" column="0" lean-forward="false" selection-start-line="2463" selection-start-column="0" selection-end-line="2463" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新浪微博登陆2018-12-11/sinalogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="101" column="26" lean-forward="false" selection-start-line="101" selection-start-column="19" selection-end-line="101" selection-end-column="26" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/微信公众号登陆加密/js.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/微信公众号登陆加密/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/新浪微博登陆2018-12-11/js.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="41871">
@@ -475,6 +540,32 @@
     <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/execjs/_external_runtime.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/colorama/ansitowin32.py" />
     <entry file="file://$PROJECT_DIR$/../../smart_login/sina_login/sina_login_pyexecjs.py" />
+    <entry file="file://$PROJECT_DIR$/新浪微博登陆2018-12-11/js.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="2463" column="0" lean-forward="false" selection-start-line="2463" selection-start-column="0" selection-end-line="2463" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/微信公众号登陆加密/js.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/微信公众号登陆加密/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#24#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -483,38 +574,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/新浪微博登陆2018-12-11/js.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="2463" column="0" lean-forward="false" selection-start-line="2463" selection-start-column="0" selection-end-line="2463" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/新浪微博登陆2018-12-11/sinalogin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="101" column="26" lean-forward="false" selection-start-line="101" selection-start-column="19" selection-end-line="101" selection-end-column="26" />
+        <state relative-caret-position="153">
+          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="3" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/微信公众号登陆加密/js.txt">
+    <entry file="file://$PROJECT_DIR$/京东登陆/js.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        <state relative-caret-position="328">
+          <caret line="3748" column="2" lean-forward="false" selection-start-line="3748" selection-start-column="2" selection-end-line="3748" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/微信公众号登陆加密/login.py">
+    <entry file="file://$PROJECT_DIR$/京东登陆/login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="475">
+          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
           <folding>
-            <element signature="e#24#39#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
