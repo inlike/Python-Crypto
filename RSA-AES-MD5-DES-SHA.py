@@ -10,6 +10,8 @@ class USE_AES:
     除了MODE_SIV模式key长度为：32, 48, or 64,
     其余key长度为16, 24 or 32
     详细见AES内部文档
+    CBC模式传入iv参数
+    本例使用常用的ECB模式
     """
 
     def __init__(self, key):
