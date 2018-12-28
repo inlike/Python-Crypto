@@ -2,6 +2,7 @@
 import base64
 import rsa
 from Crypto.Cipher import AES
+from Crypto.PublicKey import RSA
 
 
 class USE_AES:
@@ -47,14 +48,17 @@ class USE_RSA:
     生成密钥可保存.pem格式文件
     1024位的证书，加密时最大支持117个字节，解密时为128；
     2048位的证书，加密时最大支持245个字节，解密时为256。
-    https://blog.csdn.net/MTbaby/article/details/80453687
+    加密大文件时需要先用AES或者DES加密，再用RSA加密密钥，详细见文档
+    文档:https://stuvel.eu/files/python-rsa-doc/usage.html#generating-keys
     """
     def __init__(self, number=1024):
+        """
+        :param number: 公钥、私钥
+        """
         self.pubkey, self.privkey = rsa.newkeys(number)
 
     def rsaEncrypt(self, text):
         """
-
         :param test: str
         :return: bytes
         """
@@ -64,7 +68,6 @@ class USE_RSA:
     
     def rsaDecrypt(self, text):
         """
-        
         :param text:bytes 
         :return: str
         """
@@ -73,10 +76,55 @@ class USE_RSA:
         return con
         
     def savePem(self, path_name, text):
+        """
+        :param path_name: 保存路径
+        :param text: str
+        :return:bytes
+        """
         if "PEM" in path_name.upper():
             path_name = path_name[:-4]
-        with open('{}.pem'.format(path_name), 'w') as f:
-            f.write(text)
+        with open('{}.pem'.format(path_name), 'bw') as f:
+            f.write(text.save_pkcs1())
+
+    def readPem(self, path_name, key_type):
+        """
+        :param path_name: 密钥文件
+        :param key_type:类型 
+        :return: 
+        """
+        if 'pubkey' in key_type:
+            self.pubkey = rsa.PublicKey.load_pkcs1(path_name)
+        else:
+            self.privkey = rsa.PublicKey.load_pkcs1(path_name)
+        return True
+
+    def sign(self, message, priv_key=None, hash_method='SHA-1'):
+        """
+        生成明文的哈希签名以便还原后对照
+        :param message: str
+        :param priv_key:
+        :param hash_method: 哈希的模式
+        :return:
+        """
+        if None == priv_key:
+            priv_key = self.privkey
+        return rsa.sign(message.encode(), priv_key, hash_method)
+
+    def checkSign(self, mess, result, pubkey=None):
+        """
+        验证签名：传入解密后明文、签名、公钥，验证成功返回哈希方法，失败则报错
+        :param mess: str
+        :param result: bytes
+        :param pubkey: 
+        :return: str
+        """
+        if None == pubkey:
+            pubkey = self.privkey
+        try:
+            result = rsa.verify(mess, result, pubkey)
+            return result
+        except:
+            return False
 
 
 if __name__ == '__main__':
